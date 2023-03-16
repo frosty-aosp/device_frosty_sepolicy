@@ -16,3 +16,9 @@ add_service(system_server, lmo_freeform_service);
 
 # Game space
 add_service(system_server, game_space_service);
+
+# FaceUnlock
+add_service(system_server, faceunlock_service);
+typeattribute system_server data_between_core_and_vendor_violators;
+allow system_server face_vendor_data_file:file create_file_perms;
+allow system_server face_vendor_data_file:dir create_dir_perms;

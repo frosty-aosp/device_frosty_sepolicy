@@ -13,3 +13,7 @@ lmo_freeform                              u:object_r:lmo_freeform_service:s0
 
 # Game space
 game_space                                u:object_r:game_space_service:s0
+
+# FaceUnlock
+faceunlock                                    u:object_r:faceunlock_service:s0
+faceunlockhal                                 u:object_r:faceunlock_service:s0
