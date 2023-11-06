@@ -8,3 +8,7 @@ allow platform_app system_prop:property_service set;
 
 # Allow systemui to read thermal for CPUInfo
 r_dir_file(platform_app, sysfs_thermal)
+
+# Allow launcher app to read memory info
+r_dir_file(platform_app, config_gz)
+r_dir_file(platform_app, sysfs_zram)
