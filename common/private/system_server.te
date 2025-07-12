@@ -13,3 +13,6 @@ hal_client_domain(system_server, hal_chargecontrol);
 
 # Freeform
 add_service(system_server, lmo_freeform_service);
+
+# Game space
+add_service(system_server, game_space_service);
