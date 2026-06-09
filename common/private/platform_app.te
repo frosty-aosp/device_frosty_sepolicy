@@ -1,4 +1,4 @@
-#AICP Updater Ota package file
+#frosty Updater Ota package file
 allow platform_app ota_package_file:dir { read open search };
 
 allow platform_app vendor_sysfs_dc_dim:file rw_file_perms;
