@@ -1,4 +1,10 @@
 persist.frosty.                          u:object_r:system_prop:s0
 
+# Custom version
+ro.frosty.version                        u:object_r:custom_version_prop:s0
+ro.frosty.build_version                  u:object_r:custom_version_prop:s0
+ro.frosty.releasetype                    u:object_r:custom_version_prop:s0
+ro.frosty.branch                         u:object_r:custom_version_prop:s0
+
 # Aux camera
 vendor.camera.skip_unconfigure.packagelist  u:object_r:vendor_persist_camera_prop:s0
